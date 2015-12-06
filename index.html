@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<title>Think Green's Earth Day Challenge</title>
+
+		<meta charset="utf-8"/>
+		<meta name="description" content="A parallax scrolling experiment using jQuery"/>
+
+		<link rel="stylesheet" media="all" href="css/main.css" />
+
+		<script src="js/modernizr.custom.37797.js"></script> 
+		<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+		<script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
+		<script src="js/parallax.js"></script>
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+			
+			<header id="branding">
+				<img src="img/thinkgreenlogowhite.png">
+			</header>
+			
+			<nav id="primary">
+				<ul>
+					<li>
+						<h1>Make Everyday Earth Day Challenge!</h1>
+						<a class="manned-flight" href="#manned-flight">View</a>
+					</li>
+					<li>
+						<h1>Bike to Work</h1>
+						<a class="frameless-parachute" href="#frameless-parachute">View</a>
+					</li>
+					<li>
+						<h1>Save Energy</h1>
+						<a class="english-channel" href="#english-channel">View</a>
+					</li>
+					<li>
+						<h1>Use Cloth Diapers</h1>
+						<a class="cloth-diapers" href="#cloth-diapers">View</a>
+					</li>
+					<li>
+						<h1>Plant a Tree</h1>
+						<a class="about" href="#about">View</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<div id="content">
+				<article id="manned-flight">
+					<header>
+						<h1>Make Everyday Earth Day Challenge!</h1>
+					</header>
+					<p>If you think that environmental changes do not affect you and there is nothing you can do about it anyway, than think again. There are many things we can do to combat the changes we are experiencing in our environment.</p>
+					<nav class="next-prev">
+						<hr />
+						<a class="next frameless-parachute" href="#frameless-parachute">Next</a>
+					</nav>
+				</article>
+				
+				<article id="frameless-parachute">
+					<header>
+						<h1>Bike to Work</h1>
+					</header>
+					<p>It is up to each and every individual to help slow down the process of global warming. You need to arm yourself with knowledge in order to combat this problem. You need to do your own homework to help familiarize yourself with the facts. There is a lot of information available to help you understand this process and your role in it.</p>
+					<nav class="next-prev">
+						<a class="prev manned-flight" href="#manned-flight">Prev</a>
+						<hr />
+						<a class="next english-channel" href="#english-channel">Next</a>
+					</nav>
+				</article>
+				
+				<article id="english-channel">
+					<header>
+						<h1>Save Energy</h1>
+					</header>
+					<p>Appliances in our homes are using electricity and emitting carbon even when they are not in use. If you simply unplug them at night or when you are at work, this is a great small step you can take that will not cost you a penny. It will in fact save you on your electricity consumption.</p>
+					<nav class="next-prev">
+						<a class="prev frameless-parachute" href="#frameless-parachute">Prev</a>
+						<hr />
+						<a class="next cloth-diapers" href="#cloth-diapers">Next</a>
+					</nav>
+				</article>
+
+				<article id="cloth-diapers">
+					<header>
+						<h1>Use Cloth Diapers</h1>
+					</header>
+					<p>Environmental changes are happening and it is up to each and every individual to do something about it. If we all do our part we can significantly make a difference in our future. It doesn’t take a lot of time or money and almost anyone can make small changes.</p>
+					<nav class="next-prev">
+						<a class="prev english-channel" href="#english-channel">Prev</a>
+						<hr />
+						<a class="next about" href="#about">Next</a>
+					</nav>
+				</article>
+				
+				<article id="about">
+					<header>
+						<h1>Plant a Tree</h1>
+					</header>
+					<p>Planting trees and shrubs around your home can help keep your home cool in the summer. Trees and shrubs also absorb carbon monoxide and this can help the air you breathe and your environment. There are many types of greenery to choose from and you can find something that will fit your taste.</p>
+					<nav class="next-prev">
+						<a class="prev cloth-diapers" href="#cloth-diapers">Prev</a>
+						<hr />
+					</nav>
+				</article>
+			</div>
+			
+			<!-- Parallax foreground -->
+			<div id="parallax-bg3">
+				<img id="bg3-1" src="images/earthdayartworkhalfearth.png" width="483" height="527" alt="Make everyday earth day"/>
+				<img id="bg3-2" src="images/biketowork2.png" width="484" height="286" alt="Bike to work"/>
+				<img id="bg3-3" src="img/saveenergyillustration2.png" width="386" height="351" alt="Save Enegry"/>
+				<img id="bg3-3half" src="images/useclothdiapers.png" width="396" height="208" alt="Use cloth diapers"/>
+				<img id="bg3-4" src="img/plantatreebackground.png" width="1104" height="684" alt="Save water, plant a tree"/>
+			</div>
+			
+			<!-- Parallax  midground clouds -->
+			<div id="parallax-bg2">
+				<img id="bg2-1" src="img/largecloud.png" alt="cloud"/>
+				<img id="bg2-2" src="img/largecloud.png" alt="cloud"/>
+				<img id="bg2-3" src="img/largecloud.png" alt="cloud"/>
+				<img id="bg2-4" src="img/largecloud.png" alt="cloud"/>
+				<img id="bg2-5" src="img/largecloud.png" alt="cloud"/>
+			</div>
+			
+			<!-- Parallax  background clouds -->
+			<div id="parallax-bg1">
+				<img id="bg1-1" src="img/smallclouds.png" alt="cloud"/>
+				<img id="bg1-2" src="img/smallclouds.png" alt="cloud"/>
+				<img id="bg1-3" src="img/smallclouds.png" alt="cloud"/>
+				<img id="bg1-4" src="img/smallclouds.png" alt="cloud"/>
+			</div>
+		
+		</div>
+	
+	</body>
+  
+</html>
